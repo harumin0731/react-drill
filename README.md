@@ -13,8 +13,8 @@
 * node.jsを予めインストールしてください
  
 ```bash
-git clone https://github.com/f81/intern2022_HarumiKadota.git
-cd intern2022_HarumiKadota
+git clone https://github.com/harumin0731/react-drill.git
+cd react-drill
 
 npm install react react-dom
 npm install webpack webpack-cli webpack-dev-server --save-dev
@@ -52,6 +52,6 @@ https://localhost:8080/ にアクセス
 作成者情報を列挙する
  
 * 作者名: 角田 遼海(カドタ ハルミ)
-* 所属: 徳島大学大学院 １年
+* 所属: 徳島大学大学院 
 * E-mail: haruminriku@gmail.com
  
