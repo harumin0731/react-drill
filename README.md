@@ -7,11 +7,21 @@
    
 # Usage
  
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
+実行方法の手順を説明する
+
+* [babelrc],[eslintrc.json]の名前を[.babelrc],[.eslintrc.json]に変更し、隠しファイルにしてください
+* node.jsを予めインストールしてください
  
 ```bash
-git clone https://github.com/hoge/~
-cd react-drill
+git clone https://github.com/f81/intern2022_HarumiKadota.git
+cd intern2022_HarumiKadota
+
+npm install react react-dom
+npm install webpack webpack-cli webpack-dev-server --save-dev
+npm install @babel/core @babel/preset-env @babel/preset-react @babel/cli --save-dev
+npm install eslint babel-eslint eslint-loader eslint-plugin-react --save-dev
+npm install css-loader style-loader babel-loader --save-dev
+
 npm start
 ```
 
